@@ -42,7 +42,7 @@
     display: flex;
     color:rgb(6, 248, 6) ;
   }
-  .name{
+  #name{
     height: 350px;
     width: 100%;
   }
@@ -61,11 +61,12 @@
    color:azure;
 
   }
-  .pits{
+  #pits{
     background-color: black;
     height: 400px;
     width: 100%;
     color: white;
+    transition: width 2s;
   
     
   }
